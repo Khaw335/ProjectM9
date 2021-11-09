@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Facebook from './components/Facebook';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>ProjectM9</h1>
+        <h1 className="App-title">Facebook Auth</h1>
       </header>
+      <p className="App-intro">
+        Get start
+      </p>
+      <Facebook />
     </div>
   );
 }
